@@ -1,0 +1,81 @@
+.club{
+    width: 100%;
+    height: 3978px;
+    display: flex;
+    align-items: center;
+
+    &__fots{
+        display: flex;
+        gap: 64px;
+        margin-left: 190px;
+        margin-top: -915px;
+    }
+    &__foto{
+        width: 376px;
+        height: 450px;
+        flex-shrink: 0;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+    }
+    &__fots_title{
+        // width: 376px;
+        color: var(--white, #FFF);
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-top: -130px;
+    }
+    &__form{
+        display: flex;
+        margin-top: 245px;
+        margin-left: 260px;
+    }
+    &__sportClub{
+        margin-top: -70px;
+        width: 636px;
+        height: 654px;
+        flex-shrink: 0;
+        background: var(--sub-accent, #F7ECE1);         
+    }
+    &__sport_title{
+        width: 430px;
+        color: var(--text, #333);        
+        font-family: Gilroy;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-left: 86px;
+        margin-top: 70px;
+    }
+    &__sport_text{
+        width: 430px;
+        color: var(--text, #333);
+        font-family: Gilroy;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        margin-left: 86px;
+        margin-top: 30px;
+    }
+    &__sport_title-h2{
+        width: 430px;
+        color: var(--text, #333);
+        font-family: Gilroy;
+        font-size: 21px;
+        font-style: normal;
+        line-height: 140%;
+        font-weight: 600;
+        margin-left: 86px;
+        margin-top: 30px;
+    }
+
+
+    &__carousel{
+        margin-top: 500px;
+    }
+}

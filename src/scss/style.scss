@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1596px !important;
+    margin: 0 auto;
+    width: 100%;
+}
+.main{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+@import "header";
+@import "home";
+@import "club";
+@import "treners";
+@import "cash";
+@import "uslug";
+@import "footer";
+@import "media";

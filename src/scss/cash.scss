@@ -1,0 +1,53 @@
+.cash{
+    display: flex;
+
+
+    &__title{
+        color: var(--text, #333);
+        font-family: Gilroy;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-left: 150px;
+        margin-top: -900px;
+    }
+
+    
+    &__form{
+        width: 636px;
+        height: 63px;
+        flex-shrink: 0;
+        border-radius: 9px;
+        background: var(--accent, #8D86C9);
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    &__seson{
+        display: flex;
+        color: white;
+        font-family: Gilroy;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 260%;
+        margin-left: 20px;
+
+    }
+    &__left{
+        width: 30px;
+        height: 30px;
+        transform: rotate(-90deg);
+        flex-shrink: 0;
+        margin-left: 550px;
+    }
+    &__seson-link{
+        display: flex;
+        margin-left: 580px;
+        margin-top: -40px;
+        text-decoration: none;
+        outline: none;
+        border: none;
+    }
+    
+}
